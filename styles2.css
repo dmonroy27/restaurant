@@ -1,0 +1,69 @@
+/* Estilos generales */
+
+    
+
+   
+
+body {
+    background: url(https://media.gq.com.mx/photos/5c927b45c0e463f033a84935/4:3/w_4676,h_3507,c_limit/restaurante.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10%;
+    color: aqua;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.menu li a {
+    color: #cf4b4b;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Estilos para el menú desplegable */
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-menu li {
+    margin: 0;
+}
+
+.submenu:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-menu li a:hover {
+    background-color: #a35757;
+}
